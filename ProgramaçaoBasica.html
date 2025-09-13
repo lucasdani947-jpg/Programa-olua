@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ensinando programação básica em Lua</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 18px; /* tamanho do texto */
+      line-height: 1.6; /* espaçamento */
+      background: linear-gradient(to right, #1E90FF, #FFFFFF); /* degradê azul para branco */
+      margin: 0; /* remove espaçamento padrão da página */
+      padding: 20px; /* deixa o conteúdo afastado das bordas */
+      position: relative; /* necessário para a imagem posicionada */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 32px; /* tamanho dos títulos */
+    }
+
+    #foto-topo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 150px; /* aumentei a imagem */
+      height: auto;
+    }
+
+    .codigo-lua {
+      white-space: pre-line;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Imagem no canto superior direito -->
+  <img id="foto-topo" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Minha foto">
+
+  <h1>Programaçao basica em lua, começo</h1>
+  <p>
+     Programaçao basica(pagina em criaçao..)<br>
+     print("Hello World!") Oque e print?<br>
+     print é uma forma de printar algo no terminal! Como assim printar?<br>
+     print e tipo vocÊ colocar print("oque vocÊ quer escrever"), assim faz com que o texto que vocÊ escreveu dentro do print apareça no terminal.
+  </p>
+
+  <h2>Oque é if else e else? oque isso faz?</h2>
+  <p>
+     oque são "if, else e elseif"?<br>
+      <div class="codigo-lua">
+if else e else if são condições para variaveis!, mas como assim?
+
+tipo, if serve para condições com variavel, tipo pra fazer algo se a condição for verdadeira,  else serve pra quando nenhuma das condições e verdadeira, fazer algo, elseif serve para adicionar mais de um if no mesmo codigo.
+
+exemplo:
+
+local "sua variavel" = "seu valor da variavel"
+
+  if "sua variavel" == "seu valor dentro ou fora de aspas dependendo da forma usada" depois do valor do valor da variavel coloque um "then" sempre coloque ele no final da linha quando usar if.
+
+elseif "sua variavel" == "seu valor dentro ou fora de aspas" coloque "then"
+
+else "else serve pra quando nenhuma das condições for verdadeira"
+
+se quiser printar algo quando a condição for verdadeira ou não coloque um print debaixo da linha dos if ou else
+
+OBRIGAÇÃO: quando terminar um codigo com if sempre coloque "end" no final
+exemplo:
+
+"os seus ifs e prints"
+end.
+      </div>
+  </p>
+
+  <h3>como criar variaveis,e como elas funcionam?</h3>
+  <p>
+    para criar variaveis vocÊ precsisa fazer isso (local -- local cria uma variavel, então:  local "nome da variavel" = "valor que esta dentro dela"
+  </p>
+
+  <h4>Oque é while?</h4>
+  <p>
+    while é tipo loop, se vocÊ quiser fazer uma contagem de numeros veja o exemplo<br>
+   exemplo:<br>
+
+<div class="codigo-lua">
+local numero = 1
+
+while numero <= 3 do  -- da um loop se o numero for menor ou igual a 3
+    print("o numero é "..numero)  -- printa "o numero é", o "..numero" serve pra colocar o valor da variavel, se você quiser escrever outra coisa depois do ..numero coloque "..numero.." e depois um " seu texto"
+    numero = numero + 1  -- adiciona + 1 ao valor do numero
+end  -- encerra o loop
+</div>
+
+<h5>SITE EM CRIAÇÃO...</h5>
+
+
+</body>
+</html>
